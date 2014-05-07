@@ -72,3 +72,5 @@ wget -O /etc/salt/minion http://192.168.1.101/confs/minion
 echo ${VM_NAME}"" > /etc/salt/minion_id
 
 service salt-minion restart
+sleep 5
+service salt-minion restart
