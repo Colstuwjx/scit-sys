@@ -5,6 +5,7 @@ import time
 from creds import get_nova_obj
 
 
+SCRIPT = "scripts/combined.txt"
 nova = get_nova_obj()
 
 
@@ -43,7 +44,11 @@ def assign_float_ip(server_name, float_ip):
 
 #main func
 def main():
-    create_nova_vm(server_name="test2", img="CentOS 6.5 x86_64", flvr="m1.small", user_data=None, key_pair="dns_test", network_id="0e13d973-f3a7-4e65-aba0-7d0f392ce13b", float_ip="192.168.1.121")
+    usr_data = ""
+    with open(SCRIPT) as f:
+        usr_data = f.read()
+
+    create_nova_vm(server_name="test2", img="CentOS 6.5 x86_64", flvr="m1.small", user_data=usr_data, key_pair="dns_test", network_id="0e13d973-f3a7-4e65-aba0-7d0f392ce13b", float_ip="192.168.1.121")
     return 0
 
 
