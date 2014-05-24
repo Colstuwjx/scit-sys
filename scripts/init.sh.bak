@@ -1,7 +1,7 @@
 #!/bin/bash -
 #nova vm init
 HOST_IP=192.168.1.101
-VM_NAME="test1"
+VM_NAME="test2"
 
 #dns init
 cat > /etc/resolv.conf << EOF
@@ -46,6 +46,20 @@ service sshd restart
 #rpm installation
 mkdir -p /tmp/rpms/
 
+#wget -c -O /tmp/rpms/m2crypto-0.20.2-9.el6.x86_64.rpm  http://192.168.1.101/rpms/m2crypto-0.20.2-9.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/python-babel-0.9.4-5.1.el6.noarch.rpm  http://192.168.1.101/rpms/python-babel-0.9.4-5.1.el6.noarch.rpm
+#wget -c -O /tmp/rpms/python-crypto-2.0.1-22.el6.x86_64.rpm  http://192.168.1.101/rpms/python-crypto-2.0.1-22.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/python-jinja2-2.2.1-1.el6.x86_64.rpm  http://192.168.1.101/rpms/python-jinja2-2.2.1-1.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/salt-0.17.5-1.el6.noarch.rpm  http://192.168.1.101/rpms/salt-0.17.5-1.el6.noarch.rpm
+#wget -c -O /tmp/rpms/salt-minion-0.17.5-1.el6.noarch.rpm  http://192.168.1.101/rpms/salt-minion-0.17.5-1.el6.noarch.rpm
+#wget -c -O /tmp/rpms/openpgm-5.1.118-3.el6.x86_64.rpm  http://192.168.1.101/rpms/openpgm-5.1.118-3.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/python-msgpack-0.1.13-3.el6.x86_64.rpm  http://192.168.1.101/rpms/python-msgpack-0.1.13-3.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/python-zmq-2.2.0.1-1.el6.x86_64.rpm  http://192.168.1.101/rpms/python-zmq-2.2.0.1-1.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/sshpass-1.05-1.el6.x86_64.rpm  http://192.168.1.101/rpms/sshpass-1.05-1.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/zeromq3-3.2.4-1.el6.x86_64.rpm  http://192.168.1.101/rpms/zeromq3-3.2.4-1.el6.x86_64.rpm
+#wget -c -O /tmp/rpms/yum-utils-1.1.30-17.el6_5.noarch.rpm  http://192.168.1.101/rpms/yum-utils-1.1.30-17.el6_5.noarch.rpm
+#wget -c -O /tmp/rpms/pciutils-3.1.10-2.el6.x86_64.rpm http://192.168.1.101/rpms/pciutils-3.1.10-2.el6.x86_64.rpm
+
 #install bind
 wget -c -O /tmp/rpms/bind-9.8.2-0.23.rc1.el6_5.1.x86_64.rpm http://192.168.1.101/rpms/bind-9.8.2-0.23.rc1.el6_5.1.x86_64.rpm
 
@@ -53,12 +67,24 @@ wget -c -O /tmp/rpms/bind-libs-9.8.2-0.23.rc1.el6_5.1.x86_64.rpm http://192.168.
 
 wget -c -O /tmp/rpms/portreserve-0.0.4-9.el6.x86_64.rpm http://192.168.1.101/rpms/portreserve-0.0.4-9.el6.x86_64.rpm
 
-#set up the dns server
 cd /tmp/rpms/
+#rpm -ih m2crypto-0.20.2-9.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih openpgm-5.1.118-3.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih python-babel-0.9.4-5.1.el6.noarch.rpm 2>&1 > /dev/null
+#rpm -ih python-crypto-2.0.1-22.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih python-jinja2-2.2.1-1.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih python-msgpack-0.1.13-3.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih zeromq3-3.2.4-1.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih python-zmq-2.2.0.1-1.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih sshpass-1.05-1.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih yum-utils-1.1.30-17.el6_5.noarch.rpm 2>&1 > /dev/null
+#rpm -ih pciutils-3.1.10-2.el6.x86_64.rpm 2>&1 > /dev/null
+#rpm -ih salt-0.17.5-1.el6.noarch.rpm 2>&1 > /dev/null
+#rpm -ih salt-minion-0.17.5-1.el6.noarch.rpm 2>&1 > /dev/null
 
-rpm -ih portreserve-0.0.4-9.el6.x86_64.rpm
-rpm -ih bind-libs-9.8.2-0.23.rc1.el6_5.1.x86_64.rpm
-rpm -ih bind-9.8.2-0.23.rc1.el6_5.1.x86_64.rpm
+rpm -ih portreserve-0.0.4-9.el6.x86_64.rpm 2>&1 > /dev/null 
+rpm -ih bind-libs-9.8.2-0.23.rc1.el6_5.1.x86_64.rpm 2>&1 > /dev/null
+rpm -ih bind-9.8.2-0.23.rc1.el6_5.1.x86_64.rpm 2>&1 > /dev/null
 
 #set the named confs
 cat > /etc/named.conf << EOF
@@ -123,4 +149,3 @@ mail    IN      A       192.168.1.121
 EOF
 
 service named restart
-chkconfig named on

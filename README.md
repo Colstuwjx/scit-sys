@@ -16,3 +16,10 @@ a clean state.
 > Python 2.6.6(actually don't care);  
 > SCIT rotate;  
 > BIND and dns settings;  
+
+##Ansible Usage:
+> Use ansible all -m raw -a 'w' to call raw cmd module run shell;
+> Use original target run: ansible '192.168.1.122' -m raw -a 'w';
+
+##MysqlDB Table
+To be continue

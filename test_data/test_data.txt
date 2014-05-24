@@ -1,0 +1,12 @@
+init the env and var;
+init the mysqldb;
+start the ctrller.py to run scit-dns;
+up the all vms;
+start test.ping vm and delete the dirty one or overwork one;
+start cleanning job and rotate a newly one online;
+...
+
+
+
+2014年 05月 21日 星期三 01:26:06 CST
+2014年 05月 21日 星期三 01:28:49 CST

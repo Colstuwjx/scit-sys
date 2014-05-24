@@ -1,0 +1,6 @@
+Sun, 25 May 2014 00:13:45 scit_ctrler.py[line:115] INFO start init scit-dns system.
+Sun, 25 May 2014 00:13:45 openstack_api.py[line:81] INFO deleting the vm: test2
+Sun, 25 May 2014 00:13:56 scit_ctrler.py[line:130] INFO init nova vms complete, time: 12 s.
+Sun, 25 May 2014 00:13:57 scit_ctrler.py[line:139] INFO init network env complete.
+Sun, 25 May 2014 00:13:57 scit_ctrler.py[line:145] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 00:13:57 scit_ctrler.py[line:148] INFO scit-dns init finished.

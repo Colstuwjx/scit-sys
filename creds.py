@@ -31,8 +31,12 @@ def get_neutron_obj():
     creds = get_keystone_creds()
     neutron = neutron_client.Client(**creds)
 
-    neutron.format = 'json'
-    print neutron.list_networks()
+    #433 line
+    #print neutron.list_floatingips()
+    
+
+    #param = {'floatingip': {'floating_network_id': "0e13d973-f3a7-4e65-aba0-7d0f392ce13b"}}
+    #neutron.create_floatingip(param)
     return neutron
 
 
