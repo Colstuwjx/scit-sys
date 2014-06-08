@@ -4,3 +4,649 @@ Sun, 25 May 2014 00:13:56 scit_ctrler.py[line:130] INFO init nova vms complete, 
 Sun, 25 May 2014 00:13:57 scit_ctrler.py[line:139] INFO init network env complete.
 Sun, 25 May 2014 00:13:57 scit_ctrler.py[line:145] INFO init the ssh set and ansible hosts.
 Sun, 25 May 2014 00:13:57 scit_ctrler.py[line:148] INFO scit-dns init finished.
+Sun, 25 May 2014 01:47:08 scit_ctrler.py[line:125] INFO start init scit-dns system.
+Sun, 25 May 2014 01:47:09 scit_ctrler.py[line:140] INFO init nova vms complete, time: 1 s.
+Sun, 25 May 2014 01:47:09 scit_ctrler.py[line:149] INFO init network env complete.
+Sun, 25 May 2014 01:47:09 scit_ctrler.py[line:155] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 01:47:09 scit_ctrler.py[line:162] INFO try create vm: SCIT_VM00 with no floatip..
+Sun, 25 May 2014 01:48:09 scit_ctrler.py[line:125] INFO start init scit-dns system.
+Sun, 25 May 2014 01:48:09 scit_ctrler.py[line:140] INFO init nova vms complete, time: 0 s.
+Sun, 25 May 2014 01:48:09 scit_ctrler.py[line:149] INFO init network env complete.
+Sun, 25 May 2014 01:48:09 scit_ctrler.py[line:155] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 01:48:09 scit_ctrler.py[line:162] INFO try create vm: SCIT_VM00 with no floatip..
+Sun, 25 May 2014 01:49:47 scit_ctrler.py[line:166] ERROR failed create vm: SCIT_VM00
+Sun, 25 May 2014 01:54:00 scit_ctrler.py[line:125] INFO start init scit-dns system.
+Sun, 25 May 2014 01:54:02 openstack_api.py[line:100] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 01:54:34 openstack_api.py[line:120] INFO cleared the vms..
+Sun, 25 May 2014 01:54:34 scit_ctrler.py[line:140] INFO init nova vms complete, time: 33 s.
+Sun, 25 May 2014 01:54:39 scit_ctrler.py[line:149] INFO init network env complete.
+Sun, 25 May 2014 01:54:39 scit_ctrler.py[line:155] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 01:54:39 scit_ctrler.py[line:163] INFO try create vm: SCIT_VM00 with no floatip..
+Sun, 25 May 2014 01:55:35 scit_ctrler.py[line:170] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 01:55:35 scit_ctrler.py[line:163] INFO try create vm: SCIT_VM01 with no floatip..
+Sun, 25 May 2014 02:00:52 scit_ctrler.py[line:170] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 02:00:53 scit_ctrler.py[line:163] INFO try create vm: SCIT_VM02 with no floatip..
+Sun, 25 May 2014 02:05:02 scit_ctrler.py[line:170] INFO vm: SCIT_VM02 created!
+Sun, 25 May 2014 02:05:02 scit_ctrler.py[line:174] INFO scit-dns init finished.
+Sun, 25 May 2014 02:29:38 scit_ctrler.py[line:125] INFO start init scit-dns system.
+Sun, 25 May 2014 02:29:41 openstack_api.py[line:100] INFO deleting the vm: SCIT_VM02
+Sun, 25 May 2014 02:29:45 openstack_api.py[line:100] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 02:29:51 openstack_api.py[line:100] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 02:30:29 openstack_api.py[line:120] INFO cleared the vms..
+Sun, 25 May 2014 02:30:29 scit_ctrler.py[line:140] INFO init nova vms complete, time: 51 s.
+Sun, 25 May 2014 02:30:32 scit_ctrler.py[line:149] INFO init network env complete.
+Sun, 25 May 2014 02:30:32 scit_ctrler.py[line:155] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 02:30:32 scit_ctrler.py[line:163] INFO try create vm: SCIT_VM00 with no floatip..
+Sun, 25 May 2014 02:31:26 scit_ctrler.py[line:170] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 02:31:26 scit_ctrler.py[line:163] INFO try create vm: SCIT_VM01 with no floatip..
+Sun, 25 May 2014 02:32:29 scit_ctrler.py[line:170] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 02:32:29 scit_ctrler.py[line:163] INFO try create vm: SCIT_VM02 with no floatip..
+Sun, 25 May 2014 02:34:16 scit_ctrler.py[line:170] INFO vm: SCIT_VM02 created!
+Sun, 25 May 2014 02:34:16 scit_ctrler.py[line:174] INFO scit-dns init finished.
+Sun, 25 May 2014 02:53:25 scit_ctrler.py[line:125] INFO start init scit-dns system.
+Sun, 25 May 2014 02:53:33 openstack_api.py[line:100] INFO deleting the vm: SCIT_VM02
+Sun, 25 May 2014 02:53:38 openstack_api.py[line:100] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 02:53:43 openstack_api.py[line:100] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 02:54:38 openstack_api.py[line:120] INFO cleared the vms..
+Sun, 25 May 2014 02:54:38 scit_ctrler.py[line:140] INFO init nova vms complete, time: 73 s.
+Sun, 25 May 2014 02:54:40 scit_ctrler.py[line:149] INFO init network env complete.
+Sun, 25 May 2014 02:54:40 scit_ctrler.py[line:155] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 02:54:40 scit_ctrler.py[line:174] INFO scit-dns init finished.
+Sun, 25 May 2014 03:02:02 scit_ctrler.py[line:125] INFO start init scit-dns system.
+Sun, 25 May 2014 03:02:03 scit_ctrler.py[line:140] INFO init nova vms complete, time: 1 s.
+Sun, 25 May 2014 03:02:04 scit_ctrler.py[line:149] INFO init network env complete.
+Sun, 25 May 2014 03:02:04 scit_ctrler.py[line:155] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 03:02:04 scit_ctrler.py[line:163] INFO try create vm: SCIT_VM00 with no floatip..
+Sun, 25 May 2014 03:04:00 scit_ctrler.py[line:170] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 03:04:00 scit_ctrler.py[line:173] INFO scit-dns init finished.
+Sun, 25 May 2014 06:08:52 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 06:08:53 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 06:09:18 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 06:09:18 scit_ctrler.py[line:141] INFO init nova vms complete, time: 26 s.
+Sun, 25 May 2014 06:09:19 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 06:09:19 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 06:09:20 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 06:14:30 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 06:14:31 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 06:14:52 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 06:14:52 scit_ctrler.py[line:141] INFO init nova vms complete, time: 23 s.
+Sun, 25 May 2014 06:14:53 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 06:14:54 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 06:14:57 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 06:16:33 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 06:16:34 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 06:16:47 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 06:16:47 scit_ctrler.py[line:141] INFO init nova vms complete, time: 15 s.
+Sun, 25 May 2014 06:16:48 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 06:16:48 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 06:16:49 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 06:17:33 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 44 s.
+Sun, 25 May 2014 06:17:33 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 06:36:11 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 06:36:12 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 06:36:34 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 06:36:34 scit_ctrler.py[line:141] INFO init nova vms complete, time: 23 s.
+Sun, 25 May 2014 06:36:35 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 06:36:35 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 06:36:35 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 06:37:50 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 74 s.
+Sun, 25 May 2014 06:37:52 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 06:51:06 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 06:51:10 openstack_api.py[line:203] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 06:51:31 openstack_api.py[line:223] INFO cleared the vms..
+Sun, 25 May 2014 06:51:31 scit_ctrler.py[line:141] INFO init nova vms complete, time: 25 s.
+Sun, 25 May 2014 06:51:32 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 06:51:32 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 06:52:44 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 06:52:45 scit_ctrler.py[line:141] INFO init nova vms complete, time: 1 s.
+Sun, 25 May 2014 06:52:46 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 06:52:46 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 06:52:47 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 06:54:56 openstack_api.py[line:97] INFO create vm SCIT_VM00, Total 129 s.
+Sun, 25 May 2014 06:54:57 openstack_api.py[line:119] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 06:56:05 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 06:56:07 openstack_api.py[line:203] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 06:56:31 openstack_api.py[line:223] INFO cleared the vms..
+Sun, 25 May 2014 06:56:32 scit_ctrler.py[line:141] INFO init nova vms complete, time: 27 s.
+Sun, 25 May 2014 06:56:33 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 06:56:34 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 06:56:34 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 06:57:50 openstack_api.py[line:97] INFO create vm SCIT_VM00, Total 75 s.
+Sun, 25 May 2014 06:57:50 openstack_api.py[line:119] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 06:57:50 scit_ctrler.py[line:171] ERROR failed create vm: SCIT_VM00
+Sun, 25 May 2014 07:02:37 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 07:02:41 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 07:03:05 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 07:03:05 scit_ctrler.py[line:141] INFO init nova vms complete, time: 28 s.
+Sun, 25 May 2014 07:03:07 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 07:03:07 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 07:03:08 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 07:04:28 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 80 s.
+Sun, 25 May 2014 07:04:28 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 07:04:28 scit_ctrler.py[line:174] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 07:04:28 scit_ctrler.py[line:177] INFO scit-dns init finished.
+Sun, 25 May 2014 07:06:07 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 07:06:11 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 07:07:02 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 07:07:03 scit_ctrler.py[line:141] INFO init nova vms complete, time: 55 s.
+Sun, 25 May 2014 07:07:05 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 07:07:06 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 07:07:06 scit_ctrler.py[line:167] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 07:08:38 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 91 s.
+Sun, 25 May 2014 07:08:38 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 07:08:38 scit_ctrler.py[line:174] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 07:08:38 scit_ctrler.py[line:177] INFO scit-dns init finished.
+Sun, 25 May 2014 07:15:09 scit_ctrler.py[line:126] INFO start init scit-dns system.
+Sun, 25 May 2014 07:15:10 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 07:15:32 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 07:15:32 scit_ctrler.py[line:141] INFO init nova vms complete, time: 23 s.
+Sun, 25 May 2014 07:15:33 scit_ctrler.py[line:150] INFO init network env complete.
+Sun, 25 May 2014 07:15:33 scit_ctrler.py[line:156] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 07:15:34 scit_ctrler.py[line:169] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 07:16:33 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 60 s.
+Sun, 25 May 2014 07:16:34 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 07:16:34 scit_ctrler.py[line:176] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 07:16:39 scit_ctrler.py[line:181] INFO scit-dns init finished.
+Sun, 25 May 2014 16:54:09 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 16:54:09 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 16:54:20 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 16:54:20 scit_ctrler.py[line:144] INFO init nova vms complete, time: 11 s.
+Sun, 25 May 2014 16:54:20 scit_ctrler.py[line:155] INFO init network env complete.
+Sun, 25 May 2014 16:54:20 scit_ctrler.py[line:161] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 16:54:20 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 16:55:12 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 52 s.
+Sun, 25 May 2014 16:55:12 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 16:55:12 scit_ctrler.py[line:179] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 16:55:13 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 16:55:46 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 33 s.
+Sun, 25 May 2014 16:55:46 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 16:55:46 scit_ctrler.py[line:179] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 16:55:49 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM02 without floatip..
+Sun, 25 May 2014 16:56:47 openstack_api.py[line:98] INFO create vm SCIT_VM02, Total 58 s.
+Sun, 25 May 2014 16:56:47 openstack_api.py[line:120] INFO vm: SCIT_VM02 created.
+Sun, 25 May 2014 16:56:47 scit_ctrler.py[line:179] INFO vm: SCIT_VM02 created!
+Sun, 25 May 2014 16:56:47 scit_ctrler.py[line:185] INFO scit-dns init finished.
+Sun, 25 May 2014 17:03:55 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 17:03:56 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM02
+Sun, 25 May 2014 17:04:00 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 17:04:01 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 17:04:28 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 17:04:28 scit_ctrler.py[line:144] INFO init nova vms complete, time: 32 s.
+Sun, 25 May 2014 17:04:28 scit_ctrler.py[line:155] INFO init network env complete.
+Sun, 25 May 2014 17:04:28 scit_ctrler.py[line:161] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 17:04:29 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 17:05:31 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 63 s.
+Sun, 25 May 2014 17:05:31 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 17:05:31 scit_ctrler.py[line:179] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 17:05:33 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 17:06:05 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 32 s.
+Sun, 25 May 2014 17:06:05 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 17:06:05 scit_ctrler.py[line:179] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 17:06:07 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM02 without floatip..
+Sun, 25 May 2014 17:08:09 openstack_api.py[line:98] INFO create vm SCIT_VM02, Total 122 s.
+Sun, 25 May 2014 17:08:09 openstack_api.py[line:120] INFO vm: SCIT_VM02 created.
+Sun, 25 May 2014 17:08:10 scit_ctrler.py[line:179] INFO vm: SCIT_VM02 created!
+Sun, 25 May 2014 17:08:10 scit_ctrler.py[line:185] INFO scit-dns init finished.
+Sun, 25 May 2014 17:10:48 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 17:10:56 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM02
+Sun, 25 May 2014 17:10:58 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 17:11:02 openstack_api.py[line:204] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 17:11:31 openstack_api.py[line:224] INFO cleared the vms..
+Sun, 25 May 2014 17:11:31 scit_ctrler.py[line:144] INFO init nova vms complete, time: 43 s.
+Sun, 25 May 2014 17:11:32 scit_ctrler.py[line:155] INFO init network env complete.
+Sun, 25 May 2014 17:11:32 scit_ctrler.py[line:161] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 17:11:33 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 17:12:11 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 38 s.
+Sun, 25 May 2014 17:12:11 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 17:12:11 scit_ctrler.py[line:179] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 17:12:13 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 17:12:46 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 33 s.
+Sun, 25 May 2014 17:12:46 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 17:12:47 scit_ctrler.py[line:179] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 17:12:49 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM02 without floatip..
+Sun, 25 May 2014 17:15:15 openstack_api.py[line:98] INFO create vm SCIT_VM02, Total 146 s.
+Sun, 25 May 2014 17:15:17 openstack_api.py[line:120] INFO vm: SCIT_VM02 created.
+Sun, 25 May 2014 17:15:19 scit_ctrler.py[line:179] INFO vm: SCIT_VM02 created!
+Sun, 25 May 2014 17:15:19 scit_ctrler.py[line:185] INFO scit-dns init finished.
+Sun, 25 May 2014 17:26:24 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 17:26:27 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM02
+Sun, 25 May 2014 17:26:30 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 17:26:34 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 17:27:24 openstack_api.py[line:227] INFO cleared the vms..
+Sun, 25 May 2014 17:27:24 scit_ctrler.py[line:144] INFO init nova vms complete, time: 60 s.
+Sun, 25 May 2014 17:27:25 scit_ctrler.py[line:155] INFO init network env complete.
+Sun, 25 May 2014 17:27:25 scit_ctrler.py[line:161] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 17:27:26 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 17:29:17 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 112 s.
+Sun, 25 May 2014 17:29:17 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 17:29:18 scit_ctrler.py[line:179] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 17:29:22 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 17:30:46 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 85 s.
+Sun, 25 May 2014 17:30:46 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 17:30:47 scit_ctrler.py[line:179] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 17:30:54 scit_ctrler.py[line:172] INFO try create vm: SCIT_VM02 without floatip..
+Sun, 25 May 2014 17:35:41 openstack_api.py[line:98] INFO create vm SCIT_VM02, Total 287 s.
+Sun, 25 May 2014 17:35:41 openstack_api.py[line:120] INFO vm: SCIT_VM02 created.
+Sun, 25 May 2014 17:35:42 scit_ctrler.py[line:179] INFO vm: SCIT_VM02 created!
+Sun, 25 May 2014 17:35:42 scit_ctrler.py[line:185] INFO scit-dns init finished.
+Sun, 25 May 2014 17:39:38 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 17:41:53 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 17:41:53 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 3, SCIT_M: 2.
+Sun, 25 May 2014 17:42:01 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM02
+Sun, 25 May 2014 17:42:06 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 17:42:09 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 17:43:02 openstack_api.py[line:227] INFO cleared the vms..
+Sun, 25 May 2014 17:43:02 scit_ctrler.py[line:147] INFO init nova vms complete, time: 69 s.
+Sun, 25 May 2014 17:43:03 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 17:43:03 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 17:43:03 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 17:49:40 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 17:49:40 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 17:49:40 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 17:49:51 openstack_api.py[line:227] INFO cleared the vms..
+Sun, 25 May 2014 17:49:51 scit_ctrler.py[line:147] INFO init nova vms complete, time: 12 s.
+Sun, 25 May 2014 17:49:52 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 17:49:52 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 17:49:53 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 17:50:38 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 45 s.
+Sun, 25 May 2014 17:50:38 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 17:50:38 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 17:50:41 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 17:51:39 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 58 s.
+Sun, 25 May 2014 17:51:39 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 17:51:40 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 17:51:40 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 18:05:07 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 18:05:07 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 18:05:34 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 18:05:42 openstack_api.py[line:207] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 18:06:38 openstack_api.py[line:227] INFO cleared the vms..
+Sun, 25 May 2014 18:06:39 scit_ctrler.py[line:147] INFO init nova vms complete, time: 92 s.
+Sun, 25 May 2014 18:06:39 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 18:06:40 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 18:06:41 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 18:08:05 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 83 s.
+Sun, 25 May 2014 18:08:05 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 18:08:05 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 18:08:07 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 18:09:56 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 108 s.
+Sun, 25 May 2014 18:09:56 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 18:09:57 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 18:09:57 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 19:05:21 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 19:05:21 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 19:05:21 openstack_api.py[line:227] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 19:05:22 openstack_api.py[line:227] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 19:05:32 openstack_api.py[line:247] INFO cleared the vms..
+Sun, 25 May 2014 19:05:32 scit_ctrler.py[line:147] INFO init nova vms complete, time: 11 s.
+Sun, 25 May 2014 19:05:32 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 19:05:32 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 19:05:32 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 19:05:54 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 21 s.
+Sun, 25 May 2014 19:05:54 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 19:05:54 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 19:06:05 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 19:06:42 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 37 s.
+Sun, 25 May 2014 19:06:42 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 19:06:42 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 19:06:42 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 19:37:41 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 19:37:41 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 19:37:42 openstack_api.py[line:231] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 19:37:43 openstack_api.py[line:231] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 19:38:04 openstack_api.py[line:251] INFO cleared the vms..
+Sun, 25 May 2014 19:38:04 scit_ctrler.py[line:147] INFO init nova vms complete, time: 23 s.
+Sun, 25 May 2014 19:38:04 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 19:38:04 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 19:38:05 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 19:39:31 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 87 s.
+Sun, 25 May 2014 19:39:32 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 19:39:32 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 19:41:56 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 19:41:56 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 19:41:56 openstack_api.py[line:231] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 19:42:07 openstack_api.py[line:251] INFO cleared the vms..
+Sun, 25 May 2014 19:42:07 scit_ctrler.py[line:147] INFO init nova vms complete, time: 11 s.
+Sun, 25 May 2014 19:42:07 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 19:42:07 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 19:42:08 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 19:42:45 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 37 s.
+Sun, 25 May 2014 19:42:45 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 19:42:45 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 19:42:47 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 19:43:26 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 39 s.
+Sun, 25 May 2014 19:43:26 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 19:43:26 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 19:43:26 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 22:14:14 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 22:14:14 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 22:14:14 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 22:14:16 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 22:14:44 openstack_api.py[line:252] INFO cleared the vms..
+Sun, 25 May 2014 22:14:44 scit_ctrler.py[line:147] INFO init nova vms complete, time: 30 s.
+Sun, 25 May 2014 22:14:45 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 22:14:45 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 22:14:46 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 22:15:48 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 62 s.
+Sun, 25 May 2014 22:15:48 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 22:15:48 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 22:15:52 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 22:19:58 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 246 s.
+Sun, 25 May 2014 22:19:59 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 22:20:00 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 22:20:00 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 23:43:36 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 23:43:36 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 23:43:37 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 23:43:38 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 23:43:52 openstack_api.py[line:252] INFO cleared the vms..
+Sun, 25 May 2014 23:43:52 scit_ctrler.py[line:147] INFO init nova vms complete, time: 15 s.
+Sun, 25 May 2014 23:43:53 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 23:43:53 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 23:43:53 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 23:45:27 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 93 s.
+Sun, 25 May 2014 23:45:27 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 23:45:27 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 23:45:29 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 23:46:34 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 64 s.
+Sun, 25 May 2014 23:46:34 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 23:46:34 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 23:46:34 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 23:48:34 scit_ctrler.py[line:201] INFO rotate-clean vm SCIT_VM00
+Sun, 25 May 2014 23:49:09 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 23:49:09 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 23:49:10 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 23:49:12 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 23:49:39 openstack_api.py[line:252] INFO cleared the vms..
+Sun, 25 May 2014 23:49:39 scit_ctrler.py[line:147] INFO init nova vms complete, time: 30 s.
+Sun, 25 May 2014 23:49:49 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 23:49:50 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 23:49:52 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 23:50:32 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 40 s.
+Sun, 25 May 2014 23:50:32 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 23:50:32 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 23:50:34 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 23:51:42 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 67 s.
+Sun, 25 May 2014 23:51:42 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 23:51:42 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 23:51:42 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 23:51:52 scit_ctrler.py[line:201] INFO rotate-clean vm SCIT_VM00
+Sun, 25 May 2014 23:54:32 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Sun, 25 May 2014 23:54:32 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Sun, 25 May 2014 23:54:34 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM01
+Sun, 25 May 2014 23:54:36 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM00
+Sun, 25 May 2014 23:55:22 openstack_api.py[line:252] INFO cleared the vms..
+Sun, 25 May 2014 23:55:22 scit_ctrler.py[line:147] INFO init nova vms complete, time: 50 s.
+Sun, 25 May 2014 23:55:23 scit_ctrler.py[line:158] INFO init network env complete.
+Sun, 25 May 2014 23:55:23 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Sun, 25 May 2014 23:55:25 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Sun, 25 May 2014 23:56:23 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 57 s.
+Sun, 25 May 2014 23:56:23 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Sun, 25 May 2014 23:56:23 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Sun, 25 May 2014 23:56:26 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Sun, 25 May 2014 23:57:29 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 63 s.
+Sun, 25 May 2014 23:57:30 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Sun, 25 May 2014 23:57:30 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Sun, 25 May 2014 23:57:30 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Sun, 25 May 2014 23:59:50 scit_ctrler.py[line:201] INFO rotate-clean vm SCIT_VM00
+Mon, 26 May 2014 00:00:18 scit_ctrler.py[line:129] INFO start init scit-dns system.
+Mon, 26 May 2014 00:00:18 scit_ctrler.py[line:132] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Mon, 26 May 2014 00:00:19 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM01
+Mon, 26 May 2014 00:00:24 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM00
+Mon, 26 May 2014 00:01:01 openstack_api.py[line:252] INFO cleared the vms..
+Mon, 26 May 2014 00:01:01 scit_ctrler.py[line:147] INFO init nova vms complete, time: 43 s.
+Mon, 26 May 2014 00:01:02 scit_ctrler.py[line:158] INFO init network env complete.
+Mon, 26 May 2014 00:01:02 scit_ctrler.py[line:164] INFO init the ssh set and ansible hosts.
+Mon, 26 May 2014 00:01:02 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM00 without floatip..
+Mon, 26 May 2014 00:02:02 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 60 s.
+Mon, 26 May 2014 00:02:03 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Mon, 26 May 2014 00:02:03 scit_ctrler.py[line:182] INFO vm: SCIT_VM00 created!
+Mon, 26 May 2014 00:02:06 scit_ctrler.py[line:175] INFO try create vm: SCIT_VM01 without floatip..
+Mon, 26 May 2014 00:03:11 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 65 s.
+Mon, 26 May 2014 00:03:11 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Mon, 26 May 2014 00:03:12 scit_ctrler.py[line:182] INFO vm: SCIT_VM01 created!
+Mon, 26 May 2014 00:03:12 scit_ctrler.py[line:188] INFO scit-dns init finished.
+Mon, 26 May 2014 00:03:22 scit_ctrler.py[line:201] INFO rotate-clean vm SCIT_VM00
+Mon, 26 May 2014 00:03:37 openstack_api.py[line:184] INFO try deleting vm SCIT_VM00
+Mon, 26 May 2014 00:03:42 openstack_api.py[line:213] ERROR delete vm: SCIT_VM00 task failed.
+Mon, 26 May 2014 00:05:12 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 90 s.
+Mon, 26 May 2014 00:05:13 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Mon, 26 May 2014 00:05:43 scit_ctrler.py[line:201] INFO rotate-clean vm SCIT_VM01
+Mon, 26 May 2014 00:05:52 openstack_api.py[line:184] INFO try deleting vm SCIT_VM01
+Mon, 26 May 2014 00:05:59 openstack_api.py[line:213] ERROR delete vm: SCIT_VM01 task failed.
+Mon, 26 May 2014 00:07:42 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 103 s.
+Mon, 26 May 2014 00:07:43 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Mon, 26 May 2014 01:40:39 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Mon, 26 May 2014 01:40:39 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Mon, 26 May 2014 01:40:43 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM01
+Mon, 26 May 2014 01:40:49 openstack_api.py[line:232] INFO deleting the vm: SCIT_VM00
+Mon, 26 May 2014 01:41:23 openstack_api.py[line:252] INFO cleared the vms..
+Mon, 26 May 2014 01:41:23 scit_ctrler.py[line:149] INFO init nova vms complete, time: 44 s.
+Mon, 26 May 2014 01:41:25 scit_ctrler.py[line:160] INFO init network env complete.
+Mon, 26 May 2014 01:41:26 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Mon, 26 May 2014 01:41:27 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Mon, 26 May 2014 01:43:27 openstack_api.py[line:98] INFO create vm SCIT_VM00, Total 120 s.
+Mon, 26 May 2014 01:43:27 openstack_api.py[line:120] INFO vm: SCIT_VM00 created.
+Mon, 26 May 2014 01:43:29 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Mon, 26 May 2014 01:43:32 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Mon, 26 May 2014 01:44:51 openstack_api.py[line:98] INFO create vm SCIT_VM01, Total 78 s.
+Mon, 26 May 2014 01:44:51 openstack_api.py[line:120] INFO vm: SCIT_VM01 created.
+Mon, 26 May 2014 01:44:52 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Mon, 26 May 2014 01:44:52 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Mon, 26 May 2014 01:44:52 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Mon, 26 May 2014 01:55:08 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Mon, 26 May 2014 01:55:08 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Mon, 26 May 2014 01:55:09 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Mon, 26 May 2014 01:55:11 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Mon, 26 May 2014 01:55:37 openstack_api.py[line:249] INFO cleared the vms..
+Mon, 26 May 2014 01:55:37 scit_ctrler.py[line:149] INFO init nova vms complete, time: 29 s.
+Mon, 26 May 2014 01:55:38 scit_ctrler.py[line:160] INFO init network env complete.
+Mon, 26 May 2014 01:55:39 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Mon, 26 May 2014 01:55:40 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Mon, 26 May 2014 01:57:36 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 114 s.
+Mon, 26 May 2014 01:57:36 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Mon, 26 May 2014 01:57:36 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Mon, 26 May 2014 01:57:39 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Mon, 26 May 2014 01:58:47 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 68 s.
+Mon, 26 May 2014 01:58:47 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Mon, 26 May 2014 01:58:48 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Mon, 26 May 2014 01:58:48 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Mon, 26 May 2014 01:58:48 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Mon, 26 May 2014 01:59:48 scit_ctrler.py[line:198] INFO scitWatcher started..
+Mon, 26 May 2014 01:59:48 scit_ctrler.py[line:206] INFO scit-dns cleaner started..
+Mon, 26 May 2014 02:05:48 scit_ctrler.py[line:226] INFO scit-dns watcher started..
+Mon, 26 May 2014 07:35:30 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Mon, 26 May 2014 07:35:30 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Mon, 26 May 2014 07:35:32 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Mon, 26 May 2014 07:35:34 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Mon, 26 May 2014 07:36:15 openstack_api.py[line:249] INFO cleared the vms..
+Mon, 26 May 2014 07:36:15 scit_ctrler.py[line:149] INFO init nova vms complete, time: 46 s.
+Mon, 26 May 2014 07:36:16 scit_ctrler.py[line:160] INFO init network env complete.
+Mon, 26 May 2014 07:36:16 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Mon, 26 May 2014 07:36:17 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Mon, 26 May 2014 07:37:41 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 85 s.
+Mon, 26 May 2014 07:37:42 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Mon, 26 May 2014 07:37:42 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Mon, 26 May 2014 07:37:47 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Mon, 26 May 2014 07:40:24 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 157 s.
+Mon, 26 May 2014 07:40:26 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Mon, 26 May 2014 07:40:27 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Mon, 26 May 2014 07:40:27 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Mon, 26 May 2014 07:40:27 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Mon, 26 May 2014 07:41:27 scit_ctrler.py[line:198] INFO scitWatcher started..
+Mon, 26 May 2014 07:41:27 scit_ctrler.py[line:206] INFO scit-dns cleaner started..
+Mon, 26 May 2014 07:47:27 scit_ctrler.py[line:226] INFO scit-dns watcher started..
+Mon, 26 May 2014 18:27:07 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Mon, 26 May 2014 18:27:07 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Mon, 26 May 2014 18:27:07 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Mon, 26 May 2014 18:27:08 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Mon, 26 May 2014 18:27:28 openstack_api.py[line:249] INFO cleared the vms..
+Mon, 26 May 2014 18:27:28 scit_ctrler.py[line:149] INFO init nova vms complete, time: 21 s.
+Mon, 26 May 2014 18:27:28 scit_ctrler.py[line:160] INFO init network env complete.
+Mon, 26 May 2014 18:27:29 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Mon, 26 May 2014 18:27:29 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Mon, 26 May 2014 18:28:32 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 63 s.
+Mon, 26 May 2014 18:28:32 openstack_api.py[line:112] ERROR vm: SCIT_VM00 network init failed.
+Mon, 26 May 2014 18:28:32 openstack_api.py[line:181] INFO try deleting vm SCIT_VM00
+Mon, 26 May 2014 18:28:34 openstack_api.py[line:210] ERROR delete vm: SCIT_VM00 task timeout.
+Mon, 26 May 2014 18:29:09 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Mon, 26 May 2014 18:29:09 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Mon, 26 May 2014 18:29:09 scit_ctrler.py[line:149] INFO init nova vms complete, time: 0 s.
+Mon, 26 May 2014 18:29:10 scit_ctrler.py[line:160] INFO init network env complete.
+Mon, 26 May 2014 18:29:10 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Mon, 26 May 2014 18:29:10 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Mon, 26 May 2014 18:29:31 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 21 s.
+Mon, 26 May 2014 18:29:31 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Mon, 26 May 2014 18:29:31 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Mon, 26 May 2014 18:29:33 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Mon, 26 May 2014 18:30:04 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 32 s.
+Mon, 26 May 2014 18:30:04 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Mon, 26 May 2014 18:30:04 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Mon, 26 May 2014 18:30:04 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Mon, 26 May 2014 18:30:04 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Mon, 26 May 2014 18:31:04 scit_ctrler.py[line:198] INFO scitWatcher started..
+Mon, 26 May 2014 18:31:04 scit_ctrler.py[line:206] INFO scit-dns cleaner started..
+Mon, 26 May 2014 18:37:05 scit_ctrler.py[line:226] INFO scit-dns watcher started..
+Mon, 26 May 2014 18:42:49 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Mon, 26 May 2014 18:42:49 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Mon, 26 May 2014 18:42:50 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Mon, 26 May 2014 18:42:50 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Mon, 26 May 2014 18:43:00 openstack_api.py[line:249] INFO cleared the vms..
+Mon, 26 May 2014 18:43:00 scit_ctrler.py[line:149] INFO init nova vms complete, time: 11 s.
+Mon, 26 May 2014 18:43:01 scit_ctrler.py[line:160] INFO init network env complete.
+Mon, 26 May 2014 18:43:01 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Mon, 26 May 2014 18:43:01 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Mon, 26 May 2014 18:43:22 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 21 s.
+Mon, 26 May 2014 18:43:22 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Mon, 26 May 2014 18:43:22 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Mon, 26 May 2014 18:43:23 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Mon, 26 May 2014 18:44:00 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 37 s.
+Mon, 26 May 2014 18:44:00 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Mon, 26 May 2014 18:44:00 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Mon, 26 May 2014 18:44:00 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Mon, 26 May 2014 18:44:00 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Mon, 26 May 2014 18:45:00 scit_ctrler.py[line:198] INFO scitWatcher started..
+Mon, 26 May 2014 18:45:00 scit_ctrler.py[line:206] INFO scit-dns cleaner started..
+Mon, 26 May 2014 18:51:00 scit_ctrler.py[line:226] INFO scit-dns watcher started..
+Mon, 26 May 2014 18:53:51 scit_ctrler.py[line:215] INFO rotate-clean vm SCIT_VM00
+Mon, 26 May 2014 18:53:52 openstack_api.py[line:181] INFO try deleting vm SCIT_VM00
+Mon, 26 May 2014 18:53:54 openstack_api.py[line:210] ERROR delete vm: SCIT_VM00 task timeout.
+Mon, 26 May 2014 18:54:22 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 28 s.
+Mon, 26 May 2014 18:54:22 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Fri, 30 May 2014 00:46:15 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Fri, 30 May 2014 00:46:15 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Fri, 30 May 2014 00:46:26 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Fri, 30 May 2014 00:46:27 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Fri, 30 May 2014 00:46:37 openstack_api.py[line:249] INFO cleared the vms..
+Fri, 30 May 2014 00:46:37 scit_ctrler.py[line:149] INFO init nova vms complete, time: 22 s.
+Fri, 30 May 2014 00:46:38 scit_ctrler.py[line:160] INFO init network env complete.
+Fri, 30 May 2014 00:46:38 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Fri, 30 May 2014 00:46:38 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Thu, 05 Jun 2014 23:28:27 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Thu, 05 Jun 2014 23:28:27 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Thu, 05 Jun 2014 23:28:28 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Thu, 05 Jun 2014 23:28:38 openstack_api.py[line:249] INFO cleared the vms..
+Thu, 05 Jun 2014 23:28:38 scit_ctrler.py[line:149] INFO init nova vms complete, time: 11 s.
+Thu, 05 Jun 2014 23:28:38 scit_ctrler.py[line:160] INFO init network env complete.
+Thu, 05 Jun 2014 23:28:38 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Thu, 05 Jun 2014 23:28:38 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Thu, 05 Jun 2014 23:29:20 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 41 s.
+Thu, 05 Jun 2014 23:29:20 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Thu, 05 Jun 2014 23:29:20 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Thu, 05 Jun 2014 23:29:31 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Thu, 05 Jun 2014 23:30:07 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 36 s.
+Thu, 05 Jun 2014 23:30:08 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Thu, 05 Jun 2014 23:30:08 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Thu, 05 Jun 2014 23:30:08 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Thu, 05 Jun 2014 23:30:08 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Thu, 05 Jun 2014 23:31:08 scit_ctrler.py[line:198] INFO scitWatcher started..
+Thu, 05 Jun 2014 23:31:08 scit_ctrler.py[line:206] INFO scit-dns cleaner started..
+Thu, 05 Jun 2014 23:34:48 scit_ctrler.py[line:215] INFO rotate-clean vm SCIT_VM00
+Thu, 05 Jun 2014 23:34:50 openstack_api.py[line:181] INFO try deleting vm SCIT_VM00
+Thu, 05 Jun 2014 23:34:51 openstack_api.py[line:210] ERROR delete vm: SCIT_VM00 task timeout.
+Thu, 05 Jun 2014 23:36:15 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 84 s.
+Thu, 05 Jun 2014 23:36:15 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Thu, 05 Jun 2014 23:37:08 scit_ctrler.py[line:226] INFO scit-dns watcher started..
+Fri, 06 Jun 2014 07:08:41 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Fri, 06 Jun 2014 07:08:41 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Fri, 06 Jun 2014 07:08:52 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Fri, 06 Jun 2014 07:08:53 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Fri, 06 Jun 2014 07:10:05 openstack_api.py[line:249] INFO cleared the vms..
+Fri, 06 Jun 2014 07:10:05 scit_ctrler.py[line:149] INFO init nova vms complete, time: 83 s.
+Fri, 06 Jun 2014 07:10:05 scit_ctrler.py[line:160] INFO init network env complete.
+Fri, 06 Jun 2014 07:10:05 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Fri, 06 Jun 2014 07:10:05 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Fri, 06 Jun 2014 07:10:32 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 27 s.
+Fri, 06 Jun 2014 07:10:32 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Fri, 06 Jun 2014 07:10:32 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Fri, 06 Jun 2014 07:10:33 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Fri, 06 Jun 2014 07:11:11 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 38 s.
+Fri, 06 Jun 2014 07:11:11 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Fri, 06 Jun 2014 07:11:11 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Fri, 06 Jun 2014 07:11:11 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Fri, 06 Jun 2014 07:11:11 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Fri, 06 Jun 2014 07:12:11 scit_ctrler.py[line:198] INFO scitWatcher started..
+Fri, 06 Jun 2014 07:12:11 scit_ctrler.py[line:206] INFO scit-dns cleaner started..
+Fri, 06 Jun 2014 17:03:50 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Fri, 06 Jun 2014 17:03:50 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Fri, 06 Jun 2014 17:03:51 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Fri, 06 Jun 2014 17:03:51 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Fri, 06 Jun 2014 17:06:52 openstack_api.py[line:240] ERROR clear vm retry timeout.
+Fri, 06 Jun 2014 17:06:52 scit_ctrler.py[line:141] ERROR init vm env stopped, exit..
+Fri, 06 Jun 2014 17:07:31 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Fri, 06 Jun 2014 17:07:31 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Fri, 06 Jun 2014 17:07:31 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Fri, 06 Jun 2014 17:07:32 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Fri, 06 Jun 2014 17:07:42 openstack_api.py[line:249] INFO cleared the vms..
+Fri, 06 Jun 2014 17:07:42 scit_ctrler.py[line:149] INFO init nova vms complete, time: 12 s.
+Fri, 06 Jun 2014 17:07:43 scit_ctrler.py[line:160] INFO init network env complete.
+Fri, 06 Jun 2014 17:07:43 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Fri, 06 Jun 2014 17:07:43 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Fri, 06 Jun 2014 17:08:39 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 56 s.
+Fri, 06 Jun 2014 17:08:39 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Fri, 06 Jun 2014 17:08:39 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Fri, 06 Jun 2014 17:08:52 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Fri, 06 Jun 2014 17:09:35 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 42 s.
+Fri, 06 Jun 2014 17:09:35 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Fri, 06 Jun 2014 17:09:35 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Fri, 06 Jun 2014 17:09:35 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Fri, 06 Jun 2014 17:09:35 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Fri, 06 Jun 2014 17:10:35 scit_ctrler.py[line:198] INFO scitWatcher started..
+Fri, 06 Jun 2014 17:10:35 scit_ctrler.py[line:206] INFO scit-dns cleaner started..
+Fri, 06 Jun 2014 17:37:51 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Fri, 06 Jun 2014 17:37:51 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Fri, 06 Jun 2014 17:38:02 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM01
+Fri, 06 Jun 2014 17:38:02 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Fri, 06 Jun 2014 17:40:22 openstack_api.py[line:240] ERROR clear vm retry timeout.
+Fri, 06 Jun 2014 17:40:22 scit_ctrler.py[line:141] ERROR init vm env stopped, exit..
+Fri, 06 Jun 2014 17:40:53 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Fri, 06 Jun 2014 17:40:53 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Fri, 06 Jun 2014 17:40:54 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Fri, 06 Jun 2014 17:41:04 openstack_api.py[line:249] INFO cleared the vms..
+Fri, 06 Jun 2014 17:41:04 scit_ctrler.py[line:149] INFO init nova vms complete, time: 11 s.
+Fri, 06 Jun 2014 17:41:04 scit_ctrler.py[line:160] INFO init network env complete.
+Fri, 06 Jun 2014 17:41:04 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Fri, 06 Jun 2014 17:41:05 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Fri, 06 Jun 2014 17:41:51 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 47 s.
+Fri, 06 Jun 2014 17:41:51 openstack_api.py[line:112] ERROR vm: SCIT_VM00 network init failed.
+Fri, 06 Jun 2014 17:41:51 openstack_api.py[line:181] INFO try deleting vm SCIT_VM00
+Fri, 06 Jun 2014 17:41:53 openstack_api.py[line:210] ERROR delete vm: SCIT_VM00 task timeout.
+Fri, 06 Jun 2014 17:42:06 scit_ctrler.py[line:131] INFO start init scit-dns system.
+Fri, 06 Jun 2014 17:42:06 scit_ctrler.py[line:134] INFO Use args, SCIT_N: 2, SCIT_M: 1.
+Fri, 06 Jun 2014 17:42:06 openstack_api.py[line:229] INFO deleting the vm: SCIT_VM00
+Fri, 06 Jun 2014 17:42:27 openstack_api.py[line:249] INFO cleared the vms..
+Fri, 06 Jun 2014 17:42:27 scit_ctrler.py[line:149] INFO init nova vms complete, time: 21 s.
+Fri, 06 Jun 2014 17:42:27 scit_ctrler.py[line:160] INFO init network env complete.
+Fri, 06 Jun 2014 17:42:27 scit_ctrler.py[line:166] INFO init the ssh set and ansible hosts.
+Fri, 06 Jun 2014 17:42:27 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM00 without floatip..
+Fri, 06 Jun 2014 17:42:49 openstack_api.py[line:95] INFO create vm SCIT_VM00, Total 22 s.
+Fri, 06 Jun 2014 17:42:49 openstack_api.py[line:117] INFO vm: SCIT_VM00 created.
+Fri, 06 Jun 2014 17:42:49 scit_ctrler.py[line:184] INFO vm: SCIT_VM00 created!
+Fri, 06 Jun 2014 17:42:53 scit_ctrler.py[line:177] INFO try create vm: SCIT_VM01 without floatip..
+Fri, 06 Jun 2014 17:43:20 openstack_api.py[line:95] INFO create vm SCIT_VM01, Total 26 s.
+Fri, 06 Jun 2014 17:43:20 openstack_api.py[line:117] INFO vm: SCIT_VM01 created.
+Fri, 06 Jun 2014 17:43:20 scit_ctrler.py[line:184] INFO vm: SCIT_VM01 created!
+Fri, 06 Jun 2014 17:43:20 scit_ctrler.py[line:190] INFO scit-dns init finished.
+Fri, 06 Jun 2014 17:43:20 scit_ctrler.py[line:193] INFO starting cleaner and watcher..
+Fri, 06 Jun 2014 17:44:20 scit_ctrler.py[line:198] INFO scitWatcher started..
+Fri, 06 Jun 2014 17:44:20 scit_ctrler.py[line:206] INFO scit-dns cleaner started..

@@ -23,3 +23,16 @@ a clean state.
 
 ##MysqlDB Table
 To be continue
+
+init should final test.ping all vms in limits timeout-time
+
+openstack test.ping not ok
+script-check.sh not ok
+
+rotate-clean alghorithm
+find a dirty one, timeout or dns not ok
+
+delete it, free floatip, clean the ssh,ansible set
+update the db info
+online a clean waiting server, use floatip and ansible set
+update the db info

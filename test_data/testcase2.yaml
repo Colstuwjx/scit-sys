@@ -1,0 +1,8 @@
+---
+- hosts: all
+  vars:
+    service_name: sshd
+  user: root
+  tasks:
+  - name: test case
+    service: name=httpd state=started

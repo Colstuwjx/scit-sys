@@ -1,0 +1,6 @@
+ansible all -m 'raw' -a 'w'
+
+ansible playbook testcases:
+ansible-playbook xxx.yaml
+
+

@@ -1,0 +1,8 @@
+---
+- hosts: all
+  vars:
+    conf_file: /etc/ansible/hosts
+  remote_user: root
+  tasks:
+  - name: send file
+    copy: src={{ conf_file}} dest=/tmp/hosts.tmp
